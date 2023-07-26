@@ -1,13 +1,13 @@
 h1
 {
     color: red;
-    font-family: tahoma;
+    font-family:'Times New Roman', Times, serif;
     font-size : 25 pt;
 }
 
 body
 {
-    background-color: goldenrod;
+    background-color:palegoldenrod;
 }
 
 a
@@ -15,7 +15,7 @@ a
     text-decoration: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 14pt;
-    color: brown;
+    color:red;
     padding: 15px;
 
 
@@ -24,7 +24,7 @@ a
 .header
  {
     width: 100%;
-    background-color:yellow;
+    background-color: orange;
     float: left;
     height: 150px;
  }
@@ -32,7 +32,7 @@ a
  .slider
  {
     width: 100%;
-    background-color: brown;
+    background-color:antiquewhite;
     float: left;
  }
 
@@ -42,3 +42,79 @@ a
  {
    color:black;
  }
+ .box1
+    {
+        width: 25%;
+        background-color:palevioletred;
+        padding-bottom: 50px;
+        float: left;
+    }
+
+.box2
+    {
+        width: 25%;
+        background-color: palevioletred;
+        padding-bottom: 50px;
+        float: left;
+    }
+
+.box3
+    {
+        width: 25%;
+        background-color: palevioletred;
+        padding-bottom: 50px;
+        float: left;
+    }
+
+.box4
+    {
+        width: 25%;
+        background-color: palevioletred;
+        padding-bottom: 50px;
+        float: left;
+    }
+
+
+.content
+    {
+        color: darkblue;
+        font-size: 16pt;
+    }
+
+table, tr, td, th
+    {
+        border:1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+table
+    {
+        width: 600px;
+    }
+
+tr
+    {
+        background-color: pink;
+    }
+
+th
+    {
+        background-color: plum;
+        color: darkmagenta;
+    }
+
+td 
+    {
+        padding: 5px;
+    }     
+
+tr:nth-child(odd)
+    {
+        background-color: lavenderblush;
+    }
+
+tr:hover
+    {
+        background-color: aquamarine;
+    }
